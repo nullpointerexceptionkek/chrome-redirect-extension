@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Toggle Redirect</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 10px;
+      }
+      #toggleButton {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      #toggleButton:hover {
+        background-color: #45a049;
+      }
+      #rulesJson {
+        width: 500px;
+        height: 300px;
+        margin-top: 10px;
+        font-family: monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="popup.js"></script>
+    <button id="toggleButton">Enable Redirect</button>
+    <textarea id="rulesJson"></textarea>
+    <button id="ButtonsaveRules">Save Rules</button>
+  </body>
+</html>
